@@ -58,6 +58,7 @@ public class Case02 {
 
 		webDriver.findElement(By.className("btn-primary")).click();
 
+		//メッセージが表示されるまで待機
 		visibilityTimeout(By.className("error"), 5);
 
 		WebElement errorMsg = webDriver.findElement(By.className("error"));
