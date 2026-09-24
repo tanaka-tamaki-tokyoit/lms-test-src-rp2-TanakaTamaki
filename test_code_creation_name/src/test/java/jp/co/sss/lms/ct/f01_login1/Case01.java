@@ -41,6 +41,7 @@ public class Case01 {
 
 		assertEquals("ログイン | LMS", webDriver.getTitle());
 
+		//エビデンスを取得する
 		getEvidence(new Object() {
 		});
 
